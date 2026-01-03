@@ -26,7 +26,7 @@ while True:
         }
 
         expenses.append(expense)
-        print("✅ Expense added successfully!")
+        print("Expense added successfully!")
 
     elif choice == "2":
         if len(expenses) == 0:
@@ -37,8 +37,9 @@ while True:
                 print(f"{i}. ₹{exp['amount']} | {exp['category']} | {exp['note']}")
 
     elif choice == "3":
-        print("Exiting program. Goodbye 👋")
+        print("Exiting program. Goodbye")
         break
 
     else:
-        print("❌ Invalid choice. Please try again.")
+        print("Invalid choice. Please try again.")
+
