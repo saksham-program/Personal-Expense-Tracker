@@ -1,7 +1,4 @@
-# Expense Tracker Program
-
-expenses = []   # this list will store all expenses
-
+expenses = []   
 
 def show_menu():
     print("\n--- Expense Tracker ---")
@@ -42,4 +39,5 @@ while True:
 
     else:
         print("Invalid choice. Please try again.")
+
 
